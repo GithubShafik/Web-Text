@@ -7,7 +7,7 @@ import { useState } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
-  const [mode, setMode] = useState("light");
+  const [mode, setMode] = useState("light");  
 
   const toggle = () => {
     if (mode === "light") {
